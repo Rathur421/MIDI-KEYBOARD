@@ -1,4 +1,4 @@
-MIDI-KEYBOARD V0.0
+# MIDI-KEYBOARD V0.0
 
 This git is made to propose some(I hope) helpfull ressources to make a MIDI Keyboard wich take in charge the velocity using an arduino-uno and some multiplexer(74HC4051)
 
