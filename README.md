@@ -19,7 +19,7 @@ so please try to not be too rude.
 
 The file for the arduino shield conception are [here](https://github.com/Rathur421/MIDI-KEYBOARD/tree/Master/PCB/circuit). The file were created using [Kicad](https://kicad.org/).
 
-## How the electronics works
+## How the shield works
 ![](PCB/circuit/circuit.svg)
 
 The number of pin on an arduino is clearly not sufficient to plug directly a keyboard matrice of a large keyboard so the idea is to use some multiplexer/demultiplexer to help us.
