@@ -1,6 +1,6 @@
 # 🎹 ARDUINO UNO BASED MIDI KEYBOARD WITH VELOCITY V0.0
 
-The documentation of the code is currently being made as well as the code improved.
+The documentation of the code is currently being made(for the moment only the README here the code is not annoted yet) as well as the code improved.
 
 :warning: the easiest way will always to buy a midi-keyboard
 
@@ -27,3 +27,9 @@ The code use principally the library [VeloceKey](###Well-how-does-the-VeloceKey-
 ### Well how does the VeloceKey library works?
 
 This library is made to be intuitive for the user as each physical key of the keyboard correspond to a VeloceKey object in the program.
+
+The VeloceKey object is built around a state byte.
+
+0       | 0       | 0       | 0       | 0                     | 0                              | 0                 | 0
+--------|---------|---------|---------|-----------------------|--------------------------------|-------------------|---------------------------
+useless | useless | useless | useless | velocity switch state | velocity switch previous state | main switch state | main switch previous state

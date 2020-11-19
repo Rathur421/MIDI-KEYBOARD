@@ -2,7 +2,9 @@
 
 
 static Mux74HC4051 WRITE_MUX(1, 8, 9, 10, 1);
+// As the mux are controlled by the same pin on the arduino shield they are the same for the arduino
 static Mux74HC4051 READMUX(14, 5, 6, 7, 0);
+
 // NOTE : Key
 // NEED 2 Switch
 // NEED 1 TIMER
